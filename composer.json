@@ -1,0 +1,33 @@
+{
+    "name":"yannsun/etcd-php",
+    "description": "Etcd Client HTTP Sdk for PHP",
+    "homepage": "https://github.com/yannsun/etcd-php",
+    "keywords":[
+        "etcd"
+    ],
+    "type":"library",
+    "authors": [
+        {
+            "name": "yannsun",
+            "email": "sunjinliang1992@gmail.com",
+            "homepage": "http://yannsun.me"
+        }
+    ],
+    "require":{
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Etcd\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Etcd\\Test\\": "tests/"
+        }
+    },
+    "license": "MIT"
+}
